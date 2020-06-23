@@ -1,7 +1,5 @@
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
-
-import javax.swing.text.Element;
 import java.util.LinkedList;
 import java.util.List;
 

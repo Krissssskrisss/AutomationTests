@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.$$x;
 
 public class YahooAnswersPage {
 
-    public List<SelenideElement> getTenListLink() {
+    public List<SelenideElement> getListLink() {
 
         ElementsCollection searchResults = $$x("div[@id='web']");
         List<SelenideElement> linkList = new ArrayList<>();
@@ -18,6 +18,5 @@ public class YahooAnswersPage {
         }
         return linkList;
     }
-
 
 }
